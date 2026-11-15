@@ -1,3 +1,4 @@
+import { AtmoTradeoff } from "./Tradeoff";
 import { useMemo, useState } from "react";
 import { HABITATS, HABITAT_SHORT, SUIT, type Habitat } from "../data/ai";
 import { DATA, INVS, INV_BY_ID, PHASE_COLOR, PHASE_LABEL, habitatMatch, inZone, label } from "../lib/data";
@@ -173,6 +174,7 @@ export function Atmosphere({ h, setH, onOpen }: { h: Habitat; setH: (h: Habitat)
           </Card>
         </div>
       </div>
+      <AtmoTradeoff h={h} />
     </section>
   );
 }

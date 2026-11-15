@@ -1,3 +1,4 @@
+import { GapMatrix } from "./Tradeoff";
 import { ArrowUpRight, Check, X } from "@phosphor-icons/react";
 import { SPINOFFS } from "../data/ai";
 import { TOTALS } from "../lib/data";
@@ -26,6 +27,7 @@ export function Gaps() {
         title={<>What the data can't tell us yet</>}
         lede="The dashboard's most useful output may be where the evidence runs out. These gaps come straight from the habitat coverage analysis."
       />
+      <GapMatrix />
       <Card inner="p-5 md:p-6">
         <div className="text-[12px] font-medium text-ink-2">Gravity coverage in PSI combustion data</div>
         <div className="grid gap-8 pt-4 lg:grid-cols-12">
