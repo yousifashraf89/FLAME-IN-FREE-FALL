@@ -177,26 +177,26 @@ export function Shell({ view, anchor, h, setH, onAsk, children }: { view: View; 
             {mini ? <SidebarSimple size={16} /> : <CaretDoubleLeft size={14} />}
           </button>
         </div>
-        {!mini && (
-          <a href="https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/" target="_blank" rel="noreferrer" className="mt-4 block px-1" title="NASA Space Apps Challenge 2026: Flame in Freefall">
-            <img src="/spaceapps-logo.png" alt="NASA Space Apps Challenge" width={120} height={47} className="h-auto w-[120px] opacity-90 transition-opacity hover:opacity-100" />
-          </a>
-        )}
         {mini ? (
-          <nav className="mt-6 grid gap-0.5" aria-label="Views">
+          <nav className="mt-6 grid min-h-0 flex-1 content-start gap-0.5 overflow-y-auto" aria-label="Views">
             {VIEWS.map((v) => (
               <NavItem key={v.id} v={v} active={v.id === view} mini />
             ))}
           </nav>
         ) : (
-          <BranchedNav groups={groups} />
+          <div className="-mx-1 mt-1 min-h-0 flex-1 overflow-y-auto px-1 [scrollbar-width:thin]">
+            <BranchedNav groups={groups} />
+          </div>
         )}
         {!mini && (
-          <div className="mt-auto space-y-1 border-t border-white/[0.06] px-2.5 pt-4 text-[12px] leading-relaxed text-muted">
+          <div className="mt-auto shrink-0 space-y-1 border-t border-white/[0.06] px-2.5 pt-3 text-[12px] leading-relaxed text-muted">
             <div>
               <span className="num text-ink-2">{TOTALS.investigations}</span> investigations · <span className="num text-ink-2">{TOTALS.tests.toLocaleString()}</span> runs
             </div>
             <div>{DATA.source}</div>
+            <a href="https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/" target="_blank" rel="noreferrer" className="block pt-2" title="NASA Space Apps Challenge 2026: Flame in Freefall">
+              <img src="/spaceapps-logo.png" alt="NASA Space Apps Challenge" width={128} height={50} className="h-auto w-[128px] opacity-90 transition-opacity hover:opacity-100" />
+            </a>
           </div>
         )}
       </aside>
