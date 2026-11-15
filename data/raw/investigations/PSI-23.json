@@ -1,0 +1,705 @@
+{
+ "accession": "PSI-23",
+ "acknowledgments": "",
+ "approach": "A series of experiments is proposed in which mixtures of various gaseous fuels and diluents will be issued into an oxidizing environment through a spherical porous burner and ignited to obtain, nominally, a spherical, one-dimensional stabilized flame. Synchronized measurements are to be made including spectrally resolved images, flame and burner temperatures, radiative flux measurements, and system operating conditions (including reactant flow rates, ambient temperatures, pressures and acceleration levels, etc.). These data are to be used for comparisons of flame behavior and structure with detailed numerical simulations of the flames.\nConventional gaseous fuels including hydrogen, methane, and ethylene will be used. Hydrogen is the simplest fuel and its reaction mechanism is also reasonably established. Methane is the simplest hydrocarbon and extensive studies have been conducted on its combustion chemistry. Ethylene is a typical sooty fuel and is also an important intermediate for the oxidation of higher hydrocarbons. Diluents mixed with fuel are to include nitrogen and helium to adjust mixture diffusivities, and carbon dioxide to influence flame radiation characteristics.",
+ "assays": [],
+ "description": "",
+ "dirty": false,
+ "doi": "10.60555/k57n-p030",
+ "experimentHardware": "Combustion Integrated Rack (CIR), ACME",
+ "experimentHardwareLink": "https://www1.grc.nasa.gov/space/iss-research/iss-fcf/cir/, https://www1.grc.nasa.gov/space/iss-research/iss-fcf/combustion-science/acme/",
+ "experimentalTable": [
+  {
+   "_id": {
+    "$oid": "679166d7b7b6ff8e6502c1ca"
+   },
+   "date_created": {
+    "$date": 1737582295471
+   },
+   "date_modified": {
+    "$date": 1737582295471
+   },
+   "file_name": "PSI-23_Experimental table_ACME s-Flame.csv",
+   "file_size": 2456,
+   "remote_path": "/Home/psi-data/PSI-23/Experimental table/PSI-23_Experimental table_ACME s-Flame.csv",
+   "remote_url": "/datamanager/file/Home/psi-data/PSI-23/Experimental table/PSI-23_Experimental table_ACME s-Flame.csv",
+   "resource_id": {
+    "$oid": "66cf53d46f1142c964b2e0a8"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-23/Experimental table/PSI-23_Experimental table_ACME s-Flame.csv",
+   "s3_version_id": "Caeo1BnBWK8ZcfzOnEB4DGEHX6K4uos1",
+   "study_id": {
+    "$oid": "6841ce486daf91e274ceddad"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  }
+ ],
+ "experiments": [],
+ "factors": [],
+ "filesDisabled": null,
+ "flightProgram": "International Space Station (ISS)",
+ "funding": "NCC3-1051, NNC06AA27A, NNX09AR03A, NNX15AC79A",
+ "hypothesis": "The transient numerical simulation of spherical flames developed as part of this program includes detailed chemistry and transport models, especially radiation mechanisms. Each description of the flames obtained from the experiment, including measurements of aspects of the flame structure, growth or flame front velocities, and the specific test conditions where steady state flames, flame extinctions, flame front instabilities, soot suppression limits, etc., comprise a rigorous test of the detailed model. Together they provide a measure of the comprehensiveness of the chemical kinetic and transport models.\nThe numerical simulation is also being used as a predictive tool to develop the science requirements for this experiment, especially the collection of test conditions and most aspects of the measurement systems. Due to time and g-jitter limitations, little of the planned test matrix can be adequately explored in the ground based test facilities, and the flight experiment definition will rely on the best effort in the modeling work.",
+ "identifiers": [],
+ "images": [],
+ "investigationAcronym": "ACME s-Flame",
+ "investigationEndDate": "11-24-2019",
+ "investigationStartDate": "02-05-2015",
+ "licenseIdentifier": "CC0-1.0",
+ "licenseLink": "https://spdx.org/licenses/CC0-1.0.html",
+ "licenseName": "Creative Commons Zero v1.0 Universal",
+ "managingNasaCenter": "Glenn Research Center (GRC)",
+ "missionEnd": "",
+ "missionLink": "",
+ "missionName": "",
+ "missionStart": "",
+ "modifiedDate": "05-Jun-2025",
+ "objective": "A series of experiments is proposed with the following specific objectives, in both soot-free and sooty flames, to compare with detailed computational simulation to assess transport properties and detailed chemical kinetics (including chemiluminescence):\n    Objective A. Measure and characterize the transient structure (such as temperature and species distribution) of diffusion flames established at initially non-steady, spherical flame structures for mixtures of different H2/CH4/diluent ratios   (soot-free) and different C2H4/diluent ratios (sooty), for different flow rates.\n    Objective B. Determine the quasi-steady convective/chemical-kinetic extinction limits (low system Damk\u00f6hler numbers) and radiative/chemical-kinetic extinction limits (high system Damk\u00f6hler numbers) for mixtures of different H2/CH4/diluent ratios (soot-free) and different C2H4/diluent ratios (sooty).\n    Objective C. Determine the existence (for different Zeldovich number, Ze), onset (as a function Da), and nature (i.e. mode, frequency, amplitude) of pulsating instabilities theoretically predicted to occur in transient spherical diffusion flames using fuel/diluent mixtures that are above a critical Lewis number.",
+ "organizations": [],
+ "payloads": [],
+ "projectIdentifier": "",
+ "projectLink": "",
+ "projectTitle": "",
+ "projectType": "Microgravity Investigation",
+ "proposalTitle": "Structure and Response of Spherical Diffusion Flames",
+ "public": true,
+ "publications": [
+  {
+   "authorList": "Law C.K., Faeth G.M.",
+   "comments": [],
+   "doi": "10.1016/0360-1285(94)90006-X",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Opportunities and challenges of combustion in microgravity"
+  },
+  {
+   "authorList": "Eng J.A., Law C.K., Zhu D.L.",
+   "comments": [],
+   "doi": "10.1016/S0082-0784(06)80819-2",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On burner-stabilized cylindrical premixed flames in microgravity"
+  },
+  {
+   "authorList": "Eng J.A., Zhu D.L., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/0010-2180(94)00102-X",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On the structure, stabilization, and dual response of flat-burner flames"
+  },
+  {
+   "authorList": "Sung C.J., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/S0082-0784(96)80296-7",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Extinction mechanisms of near-limit premixed flames and extended limits of flammability"
+  },
+  {
+   "authorList": "Qian J., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/S0010-2180(97)00069-2",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On the spreading of unsteady cylindrical diffusion flames"
+  },
+  {
+   "authorList": "Qian J., Bechtold J.K., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/S0010-2180(97)00051-5",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On the response of spherical premixed flames under rotation"
+  },
+  {
+   "authorList": "He Longtin, Tse Stephen D., Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/S0082-0784(98)80038-6",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Role of flamefront motion and criterion for global quasi-steadiness in droplet burning"
+  },
+  {
+   "authorList": "Sung C.J., Zhu D.L., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/S0082-0784(98)80108-2",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On micro-buoyancy spherical diffusion flames and a double luminous zone structure of the hydrogen/methane flame"
+  },
+  {
+   "authorList": "Law C.K, Sung C.J",
+   "comments": [],
+   "doi": "10.1016/S0360-1285(00)00018-6",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Structure, aerodynamics, and geometry of premixed flamelets"
+  },
+  {
+   "authorList": "Tse Stephen D, Zhu Delin, Sung Chih-Jen, Ju Yiguang, Law Chung K",
+   "comments": [],
+   "doi": "10.1016/S0010-2180(01)00247-4",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Microgravity burner-generated spherical diffusion flames: experiment and computation\u2021\u2021Currently at Department of Mechanical and Aerospace Engineering, Case Western Reserve University, Cleveland, OH 44106."
+  },
+  {
+   "authorList": "Yoo S.W., Law C.K., Tse S.D.",
+   "comments": [],
+   "doi": "10.1016/S1540-7489(02)80204-8",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Chemiluminescent OH* and CH* flame structure and aerodynamic scaling of weakly buoyant, nearly spherical diffusion flames"
+  },
+  {
+   "authorList": "Yoo S.W., Christiansen E.W., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/S1540-7489(02)80008-6",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Oscillatory extinction of spherical diffusion flames: Micro-buoyancy experiment and computation"
+  },
+  {
+   "authorList": "Law C. K., Sung C. J., Wang H., Lu T. F.",
+   "comments": [],
+   "doi": "10.2514/2.7289",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Development of Comprehensive Detailed and Reduced Reaction Mechanisms for Combustion Modeling"
+  },
+  {
+   "authorList": "Yoo S. W., Qian J., Bechtold J. K., Law C. K.",
+   "comments": [],
+   "doi": "10.1080/13647830500098423",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Response of spherical diffusion flames under rotation with general Lewis numbers"
+  },
+  {
+   "authorList": "Yoo Sean W., Zhu Delin, Law Chung K.",
+   "comments": [],
+   "doi": "10.1063/1.2212399",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Porous spherical burner for combustion experimentation"
+  },
+  {
+   "authorList": "Wang H.Y., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/j.proci.2006.07.183",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On intrinsic oscillation in radiation-affected diffusion flames"
+  },
+  {
+   "authorList": "Yoo S.W., Law C.K.",
+   "comments": [],
+   "doi": "10.1016/j.ijheatmasstransfer.2006.12.014",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Effects of variable density on response of spherical diffusion flames under rotation"
+  },
+  {
+   "authorList": "Yang F., Law C.K., Sung C.J., Zhang H.Q.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2009.09.018",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "A mechanistic study of Soret diffusion in hydrogen\u2013air flames"
+  },
+  {
+   "authorList": "Akkerman V\u2019yacheslav, Law Chung K., Bychkov Vitaly",
+   "comments": [],
+   "doi": "10.1103/PhysRevE.83.026305",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Self-similar accelerative propagation of expanding wrinkled flames and explosion triggering"
+  },
+  {
+   "authorList": "Yoo Sean W., Chaudhuri Swetaprovo, Sacksteder Kurt R., Zhang Peng, Zhu Delin, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2011.07.013",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Response of spherical diffusion flames subjected to rotation: Microgravity experimentation and computational simulation"
+  },
+  {
+   "authorList": "Law Chung K.",
+   "comments": [],
+   "doi": "10.2514/1.J051328",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Fuel Options for Next-Generation Chemical Propulsion"
+  },
+  {
+   "authorList": "Xin Yuxuan, Sung Chih-Jen, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2012.03.005",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "A mechanistic evaluation of Soret diffusion in heptane/air flames"
+  },
+  {
+   "authorList": "Wu Fujia, Jomaas Grunde, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.proci.2012.05.068",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "An experimental investigation on self-acceleration of cellular spherical flames"
+  },
+  {
+   "authorList": "Zhao Peng, Liang Wenkai, Deng Sili, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.fuel.2015.11.025",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Initiation and propagation of laminar premixed cool flames"
+  },
+  {
+   "authorList": "Yang Sheng, Zhu Delin, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2015.10.029",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On colliding spherical flames: Morphology, corner dynamics, and flame-generated vorticity"
+  },
+  {
+   "authorList": "Liang Wenkai, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2017.06.015",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Extended flammability limits of n-heptane/air mixtures with cool flames"
+  },
+  {
+   "authorList": "Liang Wenkai, Law Chung K.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2017.10.003",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Theory of first-stage ignition delay in hydrocarbon NTC chemistry"
+  },
+  {
+   "authorList": "Novoselov Alex G., Law Chung K., Mueller Michael E.",
+   "comments": [],
+   "doi": "10.1016/j.proci.2018.06.191",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Direct Numerical Simulation of turbulent nonpremixed \u201ccool\u201d flames: Applicability of flamelet models"
+  },
+  {
+   "authorList": "Liang Wenkai, Law Chung K.",
+   "comments": [],
+   "doi": "10.1146/annurev-chembioeng-060718-030141",
+   "pubMedID": "30901258",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On Radical-Induced Ignition in Combustion Systems"
+  },
+  {
+   "authorList": "Xiong Gang, Gandhi Rahul, Zhong Xiaosheng, M\u00e4dler Lutz, Tse Stephen D.",
+   "comments": [],
+   "doi": "10.1016/j.proci.2018.06.198",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Binary collision of a burning droplet and a non-burning droplet of xylene: Outcome regimes and flame dynamics"
+  },
+  {
+   "authorList": "Eng J., Law C., Zhu D.",
+   "comments": [],
+   "doi": "10.2514/6.1994-571",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Stabilization mechanisms and burning rates of cylindrical burner flames"
+  },
+  {
+   "authorList": "Sung C., Zhu D., Tse S., Law C.",
+   "comments": [],
+   "doi": "10.2514/6.1998-563",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "On burner-supported, spherical diffusion flames under micro-buoyancy conditions"
+  },
+  {
+   "authorList": "SD Tse, DL Zhu, CJ Sung, CK Law",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "Microgravity burner-generated spherical diffusion flames - Experiment and computation"
+  },
+  {
+   "authorList": "Chen Shr-Jing, Tse Stephen",
+   "comments": [],
+   "doi": "10.2514/6.2005-1140",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Thin-Flame Theory for Droplet Combustion at Low Grashof Numbers"
+  },
+  {
+   "authorList": "Wang Heyang, Bechtold John, Law Chung",
+   "comments": [],
+   "doi": "10.2514/6.2005-544",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Nonlinear Analysis of Pulsating Instabilities in Diffusion Flames"
+  },
+  {
+   "authorList": "Zhu Delin, Yoo Sean, Law C, Sacksteder Kurt",
+   "comments": [],
+   "doi": "10.2514/6.2005-1141",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "An Experimental Study on the Response of Spherical Diffusion Flames Subjected to Rotation and Nonequidiffusion"
+  },
+  {
+   "authorList": "Yang Fan, Law C.K., Sung C.J., Zhang Huiqiang",
+   "comments": [],
+   "doi": "10.2514/6.2009-988",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "A  Mechanistic Study of Soret Diffusion in Hydrogen-Air Flames"
+  },
+  {
+   "authorList": "YX Xin, CJ Sung, CK Law",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "A comprehensive evaluation of soret diffusion in heptane-air flames"
+  },
+  {
+   "authorList": "S Yoo, S Chaudhuri, K Sacksteder, P Zhang, D Zhu, C Law",
+   "comments": [],
+   "doi": "10.2514/6.2012-1251",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Dynamics and morphology of spherical diffusion flames under rotation"
+  },
+  {
+   "authorList": "S Yang, S Chaudhuri, D Zhu, CK Law",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "Dynamics and morphology of colliding spherical flames"
+  },
+  {
+   "authorList": "SW Yoo",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "On the structure and dynamics of stationary and rotating spherical diffusion flames"
+  },
+  {
+   "authorList": "L Paxton",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Weakly Buoyant Spherical Diffusion Flames: Properties of Hydrogen-CO Ethylene Flames"
+  },
+  {
+   "authorList": "T Xia",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Computational Simulation of Spherical Diffusion Flame Dynamics and Extinction in Microgravity"
+  },
+  {
+   "authorList": "SA Gokoglu, DL Dietrich, DP Stocker, PV Ferkul, SL Olson",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "Combustion Science: A Researcher&#x27;s Guide to International Space Station"
+  }
+ ],
+ "related_glds": "",
+ "releaseDate": "05-Apr-2018",
+ "researchArea": "Combustion Science",
+ "researchImpacts": "The impact of this work consists of both practical and fundamental aspects. Practically, with diffusion flame burning as the basis in many combustion engines and devices, understanding the underlying dynamics and chemistry of diffusion flames is important in improving performance in terms of power, efficiency, pollutant emissions, and reliability. Fundamentally, the unique buoyancy-free environment offered by microgravity affords simple aerodynamic flow fields to acquire diffusion flame data of high fidelity, with the prospect of understanding unit thermochemical processes as well as quantifying the associated physico-chemical parameters.",
+ "restricted": false,
+ "sourceAccession": "",
+ "sourceLink": "",
+ "spaceProgram": "National Aeronautics and Space Administration (NASA)",
+ "subResearchArea": "Flames of gaseous fuels",
+ "submissionDate": "05-Apr-2018",
+ "title": "Advanced Combustion via Microgravity Experiments-Structure and Response of Spherical Diffusion Flames",
+ "totalFileSize": 782172126062.0,
+ "version": 4,
+ "versionMessage": "",
+ "versionMessageLevel": "",
+ "versionMessageLocations": [],
+ "versionReason": "Additional documentation release",
+ "pi": "Dennis Stocker"
+}

@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --color-bg: #080b11;
+  --color-surface: #0f1420;
+  --color-raise: #151b2a;
+  --color-ink: #eef1f6;
+  --color-ink-2: #a9b1c1;
+  --color-muted: #828c9f;
+  --color-ug: #6aa8ff;
+  --color-flame: #ff8a3d;
+  --color-s1: #3987e5;
+  --color-s2: #d95926;
+  --color-s3: #199e70;
+  --color-s4: #c98500;
+  --color-s5: #d55181;
+  --color-s6: #9085e9;
+  --color-good: #0ca30c;
+  --color-warning: #fab219;
+  --color-serious: #ec835a;
+  --color-critical: #ef5f5f;
+  --ease-spring: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv11";
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* browser surfaces belong to the design too */
+::selection {
+  background: rgba(106, 168, 255, 0.32);
+  color: #fff;
+}
+input,
+textarea {
+  caret-color: var(--color-ug);
+}
+:focus-visible {
+  outline: 2px solid var(--color-ug);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+input[type="range"]:focus-visible {
+  outline-offset: 4px;
+}
+[popover] {
+  color: inherit;
+  border: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* card: one surface, one hairline */
+.shell {
+  border-radius: 0.875rem;
+}
+.core {
+  border-radius: 0.875rem;
+  background: #0c1019;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
+  height: 100%;
+}
+
+/* dashboard: fade panels in on mount (tab switch), no scroll dependency */
+.reveal {
+  animation: rise-in 0.6s var(--ease-spring) both;
+}
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.99); }
+}
+/* logo: the spherical flame breathes, the orbit ring drifts */
+.logo-breathe { animation: breathe 3.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+@keyframes breathe { 50% { opacity: 0.55; transform: scale(1.06); } }
+.logo-core { animation: flicker 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+@keyframes flicker { 50% { transform: scale(0.88); } }
+/* live dot */
+.pulse-dot { animation: pulse-dot 2s ease-out infinite; }
+@keyframes pulse-dot { 0% { box-shadow: 0 0 0 0 rgba(106,168,255,0.55); } 100% { box-shadow: 0 0 0 7px rgba(106,168,255,0); } }
+
+
+/* slider: filled track up to the thumb (--p set by <Range>), ringed thumb with a soft halo */
+.range {
+  --fill: var(--color-ug);
+  --p: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 22px;
+  background: transparent;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+.range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--fill) 35%, transparent), var(--fill)) 0 0 / var(--p) 100% no-repeat,
+    rgba(255, 255, 255, 0.07);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+.range::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+}
+.range::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--fill) 35%, transparent), var(--fill));
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -6px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  border: 4px solid var(--fill);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--fill) 16%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1), box-shadow 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+}
+.range::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  border: 4px solid var(--fill);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--fill) 16%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1), box-shadow 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+}
+.range:hover::-webkit-slider-thumb { box-shadow: 0 0 0 7px color-mix(in srgb, var(--fill) 22%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7); }
+.range:hover::-moz-range-thumb { box-shadow: 0 0 0 7px color-mix(in srgb, var(--fill) 22%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7); }
+.range:active::-webkit-slider-thumb { transform: scale(1.15); box-shadow: 0 0 0 9px color-mix(in srgb, var(--fill) 26%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7); }
+.range:active::-moz-range-thumb { transform: scale(1.15); box-shadow: 0 0 0 9px color-mix(in srgb, var(--fill) 26%, transparent), 0 4px 14px -2px rgba(0, 0, 0, 0.7); }
+.range:focus-visible { outline: none; }
+.range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px var(--color-bg), 0 0 0 5px var(--color-ink); }
+.range:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px var(--color-bg), 0 0 0 5px var(--color-ink); }
+
+/* minimal scrollbars: thin, no track, faint thumb. In a layer so utilities like [scrollbar-width:none] still win */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+  }
+  *:hover {
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .logo-breathe, .logo-core, .pulse-dot { animation: none; }
+  html { scroll-behavior: auto; }
+}

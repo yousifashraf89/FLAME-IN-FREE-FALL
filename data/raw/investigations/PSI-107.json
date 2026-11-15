@@ -1,0 +1,215 @@
+{
+ "accession": "PSI-107",
+ "acknowledgments": "",
+ "approach": "The experimental setup in the microgravity science glovebox consisted of an apparatus with a flow duct with integrated nozzles, cameras, and fuel delivery systems. Fuels tested included methane, ethylene, propane, propylene, and propylene mixtures. Each flame was ignited in a controlled co-flow air environment, with burner diameters of 0.41 mm, 0.76 mm, and 1.6 mm and co-flow velocities ranging from 5.4 cm/s to 65 cm/s. Fuel flow rates were adjusted to identify the smoke point, marked by the flame's transition to emitting soot. Data such as flame lengths were recorded using still and video cameras. Measurements included flame height, radiative heat losses, and co-flow air velocity distributions. In total 526 flames were studied.",
+ "assays": [],
+ "description": "",
+ "dirty": false,
+ "doi": "10.60555/9kbh-e962",
+ "experimentHardware": "Microgravity Science Glovebox (MSG)",
+ "experimentHardwareLink": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Columbus/Microgravity_Science_Glovebox",
+ "experimentalTable": [
+  {
+   "_id": {
+    "$oid": "67a3845a09ed061032c13804"
+   },
+   "date_created": {
+    "$date": 1738769498047
+   },
+   "date_modified": {
+    "$date": 1738769498047
+   },
+   "file_name": "PSI-107_Experimental table_Spice.csv",
+   "file_size": 31205,
+   "remote_path": "/Home/psi-data/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+   "remote_url": "/datamanager/file/Home/psi-data/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+   "resource_id": {
+    "$oid": "66cf53d46f1142c964b2e0a8"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+   "s3_version_id": "m6.SddOXpvfDvWSuuJDaYXuZi6aJd7do",
+   "study_id": {
+    "$oid": "683da136b8656d2315bf4601"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  }
+ ],
+ "experiments": [],
+ "factors": [],
+ "filesDisabled": null,
+ "flightProgram": "International Space Station (ISS)",
+ "funding": "",
+ "hypothesis": "The research hypothesizes that by minimizing gravity-driven transport phenomena scientists can study the laminar smoke-point properties of non-buoyant jet diffusion flames. Flame properties are expected to differ significantly from those observed under normal gravity.",
+ "identifiers": [],
+ "images": [],
+ "investigationAcronym": "SPICE",
+ "investigationEndDate": "",
+ "investigationStartDate": "",
+ "licenseIdentifier": "CC0-1.0",
+ "licenseLink": "https://spdx.org/licenses/CC0-1.0.html",
+ "licenseName": "Creative Commons Zero v1.0 Universal",
+ "managingNasaCenter": "Glenn Research Center (GRC)",
+ "missionEnd": "",
+ "missionLink": "",
+ "missionName": "",
+ "missionStart": "",
+ "modifiedDate": "02-Jun-2025",
+ "objective": "The objective of SPICE is to better understand the complex process of combustion by observing flames in a microgravity environment aboard the International Space Station (ISS) and analogous ground experiments.\n\nSpecific objectives were:\n(1) Identify the laminar smoke-point properties of non-buoyant jet diffusion flames under various co-flow conditions in microgravity.\n(2) Determine the effects of burner diameter and co-flow velocity on the luminous flame lengths and smoke points.\n(3) Quantify the sooting propensity of different fuels, such as ethylene, propane, and propylene mixtures.\n(4) Validate the correlation between luminous flame shape and residence time under microgravity conditions.\n(5) Investigate the impact of air and fuel flow rate variations on smoke point phenomena in space.",
+ "organizations": [],
+ "payloads": [],
+ "projectIdentifier": "",
+ "projectLink": "",
+ "projectTitle": "",
+ "projectType": "Microgravity Investigation",
+ "proposalTitle": "",
+ "public": true,
+ "publications": [
+  {
+   "authorList": "Dotson Keenan, Sunderland Peter, Yuan Zeng-Guang, Urban David",
+   "comments": [],
+   "doi": "10.2514/6.2010-1105",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Laminar Smoke Points in Coflow Measured Aboard the International Space Station"
+  },
+  {
+   "authorList": "Sunderland Peter B., Urban David L., Nayagam Vedha",
+   "comments": [],
+   "doi": "10.1007/978-1-4020-8682-3_22",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Scaling of Gas-Jet Flame Lengths in Elevated Gravity"
+  },
+  {
+   "authorList": "RA Spivey, LB Jeter, C Vonk",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "The Microgravity Science Glovebox (MSG), a Resource for Gravity-Dependent Phenomena Research on the International Space Station (ISS)"
+  },
+  {
+   "authorList": "Spivey Reggie, Luz Paul",
+   "comments": [],
+   "doi": "10.2514/6.2006-941",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "The Microgravity Science Glovebox as a Platform for Exploration Research on the International Space Station"
+  },
+  {
+   "authorList": "Dobbins Richard R., Tinjero Jesse, Squeo Joseph, Zhao Xinyu, Hall Robert J., Colket Meredith B., Long Marshall B., Smooke Mitchell D.",
+   "comments": [],
+   "doi": "10.1080/00102202.2022.2041621",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "A Combined Experimental and Computational Study of Soot Formation in Normal and Microgravity Conditions"
+  },
+  {
+   "authorList": "Aalburg C., Diez F.J., Faeth G.M., Sunderland P.B., Urban D.L., Yuan Z.-G.",
+   "comments": [],
+   "doi": "10.1016/j.combustflame.2004.12.009",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Shapes of nonbuoyant round hydrocarbon-fueled laminar-jet diffusion flames in still air"
+  },
+  {
+   "authorList": "LIN K, FAETH G, SUNDERLAND P, URBAN D, YUAN Z",
+   "comments": [],
+   "doi": "10.1016/S0010-2180(98)00100-X",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Shapes of nonbuoyant round luminous hydrocarbon/air laminar jet diffusion flames"
+  },
+  {
+   "authorList": "KT Dotson",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Smoke Points of Microgravity and Normal Gravity Coflow Diffusion"
+  },
+  {
+   "authorList": "Dotson K.T., Sunderland P.B., Yuan Z.-G., Urban D.L.",
+   "comments": [],
+   "doi": "10.1016/j.firesaf.2011.08.002",
+   "pubMedID": "",
+   "status": {
+    "@id": "Rd2oZxVKYUnMCRj3tbHg0eGQhfrFmtiEFnMOyDHF",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": "EFO"
+   },
+   "title": "Laminar smoke points of coflowing flames in microgravity"
+  }
+ ],
+ "related_glds": "",
+ "releaseDate": "18-Sep-2024",
+ "researchArea": "Combustion Science",
+ "researchImpacts": "(1) Will improve our understanding of soot formation mechanisms and help design safer spacecraft environments.\n(2) Will contribute to refining our computational models for predicting flame behaviors under non-buoyant conditions.\n(3) Will enhance our knowledge of soot generation\n(4) Could possibly provide insights to better fuel formulations and combustion processes.",
+ "restricted": false,
+ "sourceAccession": "",
+ "sourceLink": "",
+ "spaceProgram": "National Aeronautics and Space Administration (NASA)",
+ "subResearchArea": "Fire Safety",
+ "submissionDate": "18-Sep-2024",
+ "title": "Smoke Point In Co-flow Experiment",
+ "totalFileSize": 6946864573.0,
+ "version": 4,
+ "versionMessage": "",
+ "versionMessageLevel": "",
+ "versionMessageLocations": [],
+ "versionReason": "Additional documentation release",
+ "pi": "Peter Sunderland"
+}
