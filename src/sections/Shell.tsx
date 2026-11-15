@@ -233,6 +233,10 @@ export function Shell({ view, anchor, h, setH, onAsk, children }: { view: View; 
           </nav>
         </header>
         <main key={view} className="px-4 py-5 md:px-6">
+          {/* small screens have no sidebar: show the Space Apps logo at the top of the page */}
+          <a href="https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/" target="_blank" rel="noreferrer" className="mb-4 block md:hidden" title="NASA Space Apps Challenge 2026: Flame in Freefall">
+            <img src="/spaceapps-logo.png" alt="NASA Space Apps Challenge" width={104} height={41} className="h-auto w-[104px]" />
+          </a>
           {/* small screens: habitat picker scrolls with the page instead of eating sticky header height */}
           <div className={`mb-4 sm:hidden ${TOOLS.includes(view) ? "hidden" : ""}`}>
             <div className="mb-1.5 text-[12px] font-medium text-ink-2">Habitat</div>
