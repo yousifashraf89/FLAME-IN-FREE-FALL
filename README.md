@@ -23,6 +23,25 @@ This is an interactive, SI-powered dashboard. It summarizes, ranks and interpret
 - `src/data/models.json`: prediction grids exported from trained scikit-learn models (gradient boosting with likely ranges), checked with 5-fold cross-validation: FLEX burning rate R² 0.65 and flame lifetime R² 0.59, SAME-R smoke particle growth R² 0.89. Used on the "Will it go out?" page for the burning-rate/lifetime card and the Smoke tab.
 - `src/data/kb.ts`: curated lessons plus 86 passages from the NASA Researcher's Guide to ISS Combustion Science (2015). The Ask chat (`api/chat.ts`) adds the passages that best match each question; they are not shipped to the browser.
 
+## Dataset (download)
+
+**[`data/tests_normalized.csv`](data/tests_normalized.csv)**: every test from the NASA PSI experiment tables in one format (one row per logged test point; NASA's investigation records list 2,947 runs).
+
+| Column | Meaning |
+|---|---|
+| `psi_id`, `investigation` | NASA PSI experiment (e.g. PSI-26 = BASS) |
+| `test_id` | Test ID as in NASA's logs |
+| `fuel`, `fuel_phase` | What burned: solid, liquid (drop) or gas |
+| `o2_fraction` | Oxygen fraction (0.21 = normal air) |
+| `pressure_atm` | Pressure in atmospheres |
+| `flow_cm_s` | Air flow speed, cm/s |
+| `diluent` | Other gas (N2, He, CO2) |
+| `outcome` | Went out / kept burning, where logged |
+| `burn_time_s` | Burn time in seconds, where logged |
+| `o2_source`, `p_source` | `measured`, or the value we assumed (e.g. nominal cabin air) |
+
+Some investigations (ACME CFI-G, SPICE) log several points per test, so a test can appear on more than one row; the full per-experiment fields (nozzle, fuel rate, drop size…) are in `src/data/psi.json`. Original data: [NASA Physical Sciences Informatics](https://psi.nasa.gov), CC0.
+
 ## Data pipeline
 
 ```bash
