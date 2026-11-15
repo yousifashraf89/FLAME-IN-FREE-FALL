@@ -177,6 +177,11 @@ export function Shell({ view, anchor, h, setH, onAsk, children }: { view: View; 
             {mini ? <SidebarSimple size={16} /> : <CaretDoubleLeft size={14} />}
           </button>
         </div>
+        {!mini && (
+          <a href="https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/" target="_blank" rel="noreferrer" className="mt-4 block px-1" title="NASA Space Apps Challenge 2026: Flame in Freefall">
+            <img src="/spaceapps-logo.png" alt="NASA Space Apps Challenge" width={120} height={47} className="h-auto w-[120px] opacity-90 transition-opacity hover:opacity-100" />
+          </a>
+        )}
         {mini ? (
           <nav className="mt-6 grid gap-0.5" aria-label="Views">
             {VIEWS.map((v) => (
@@ -192,9 +197,6 @@ export function Shell({ view, anchor, h, setH, onAsk, children }: { view: View; 
               <span className="num text-ink-2">{TOTALS.investigations}</span> investigations · <span className="num text-ink-2">{TOTALS.tests.toLocaleString()}</span> runs
             </div>
             <div>{DATA.source}</div>
-            <a href="https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/" target="_blank" rel="noreferrer" className="block pt-2" title="NASA Space Apps Challenge 2026: Flame in Freefall">
-              <img src="/spaceapps-logo.png" alt="NASA Space Apps Challenge" width={132} height={52} className="h-auto w-[132px] opacity-90 transition-opacity hover:opacity-100" />
-            </a>
           </div>
         )}
       </aside>
